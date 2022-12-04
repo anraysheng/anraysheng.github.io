@@ -140,6 +140,13 @@ h1 {
   padding: 100px 20px;
   height: 100%;
 }
+.box {
+	height: 599%;
+	width: 100%;
+}
+.parent {
+    display: flex;
+  }
 
 #Home {background-color: #6b71bf;}
 #digitalart {background-color: #6b71bf;}
@@ -154,37 +161,39 @@ h1 {
 <button class="tablink" onclick="openPage('misc', this, '#6b71bf')">Misc.</button>
 
 <div id="Home" class="tabcontent">
+<div class="box">
 <div class="container">
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="EFH.png" style="height: 500px;"></center>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="Humanity’s Last Stand (1).png" style="height: 500px;"></center>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="Humanity’s Last Stand.png" style="height: 500px;"></center>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="IMG_20221112_210510_181.jpg" style="height: 500px;"></center>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="height: 500px;width: 100%"></center>
   </div>
 
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-      <img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%">
+      <center><img src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="height: 500px; width:100%"></center>
+  </div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -199,38 +208,41 @@ h1 {
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(1)" alt="featured">
+      <img class="demo cursor" src="EFH.png" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(1)" alt="Featured">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(2)" alt="my art">
+      <img class="demo cursor" src="Humanity’s Last Stand (1).png" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(2)" alt="Humanity's Last Stand">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(3)" alt="my art">
+      <img class="demo cursor" src="Humanity’s Last Stand.png" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(3)" alt="Humanity's Last Stand (Alternate)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(4)" alt="my art">
+      <img class="demo cursor" src="IMG_20221112_210510_181.jpg" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(4)" alt="The Baby Sleeps Tonight">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(5)" alt="my art">
+      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(5)" alt="my art">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%" onclick="currentSlide(6)" alt="my art">
+      <img class="demo cursor" src="https://i.ibb.co/C1QHTrL/New-Project-12.png" style="width:100%; height:70px; object-fit: cover;" onclick="currentSlide(6)" alt="my art">
     </div>
   </div>
 </div></div>
 
 <div id="digitalart" class="tabcontent">
-  <h3>Digital Art</h3>
-  <p>Nothing Has Been Posted</p>
+  <h1>Digital Art</h3></br>
+  <div class="parent"><img src="EFH.png" style="height: 300px;">
+  <p><b style="color: #bfc9ff;text-shadow: -1px 1px #1d258a">CURRENT FEATURE: EARLY FOR HALLOWEEN</b></p>
+  <p>This drawing was inspired by the theme, "a little early for Halloween." I hoped to depict a scene in which this person is hiding behind a mask of evil to supress their inner emotions.</p>
+  </div><p><a href="EFH.png" style="color: #8995f1; font-size: 16px">Full Image Here</a></p>
 </div>
 
 <div id="traditionalart" class="tabcontent">
-  <h3>Traditional Art</h3>
+  <h1>Traditional Art</h3>
   <p>Nothing Has Been Posted</p>
 </div>
 
 <div id="misc" class="tabcontent">
-  <h3>Miscellaneous</h3>
+  <h1>Miscellaneous</h3>
   <p>Nothing Has Been Posted</p>
 </div>
 
